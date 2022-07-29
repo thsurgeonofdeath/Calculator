@@ -5,7 +5,9 @@ body{
     align-items: center;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #A3E4D7, #2980B9 );
     /* footer support */
     margin-bottom: 100px;
 }
@@ -47,14 +49,14 @@ html {
     border: 1px solid black;
 }
 
-.current_result{
+.current_operation{
     min-height: 30px;
     max-height: 40px;
     font-size: 30px;
     margin-right: 5px;
 }
 
-.current_operation{
+.previous_operation{
     min-height: 40px;
     font-size: 20px;
     margin-right: 5px;
@@ -106,6 +108,7 @@ button:hover{
 .clear, .equals{
     background-color: #E67E22;
     color: white;
+    grid-column: span 2;
 }
 
 .clear:hover , .equals:hover{
@@ -114,10 +117,6 @@ button:hover{
 
 .clear:active , .equals:active{
     background-color: #922B21;
-}
-
-.equals{
-    grid-column: span 2;
 }
 
 
@@ -133,13 +132,14 @@ button:hover{
     width: 100%;
     padding: 10px;
     font-size: 20px;
+    color: whitesmoke;
   }
   
   .fa-github {
     color: var(--font);
     font-size: 24px;
     transition: transform 0.3s ease-in-out;
-    color: black;
+    color: whitesmoke;
   }
   
   .fa-github:hover {

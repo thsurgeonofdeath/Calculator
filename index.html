@@ -10,72 +10,68 @@
       src="https://kit.fontawesome.com/4c536a6bd5.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <script src="myscript.js"></script>
+    <script src="myscript.js" defer></script>
   </head>
   <body>
     <main class="main">
         <div class="calculator">
             <div class="screen">
-                <div class="current_operation"> 45 + 89</div>
-                <div class="current_result">0</div>
+                <div data-previous-operation class="previous_operation">Jose Canseco</div>
+                <div data-current-operation class="current_operation"></div>
             </div>
             <div class="buttons_grid">
                 <button class="clear">
                     AC
                 </button>
-                <button class="operator delete">
+                <button class="delete">
                     &#9249;
                 </button>
-                <button class="operator power">
-                    e²
-                </button>
-                <button class="operator divide">
+                <button class="operator divide" value="/">
                     /
                 </button>
-                <button class="number">
+                <button class="number" value="7">
                     7
                 </button>
-                <button class="number">
+                <button class="number" value="8">
                     8
                 </button>
-                <button class="number">
+                <button class="number" value="9">
                     9
                 </button>
-                <button class="operator multiply">
+                <button class="operator multiply" value="*">
                     x
                 </button>
-                <button class="number">
+                <button class="number" value="4">
                     4
                 </button>
-                <button class="number">
+                <button class="number" value="5">
                     5
                 </button>
-                <button class="number">
+                <button class="number" value="6">
                     6
                 </button>
-                <button class="operator substract">
+                <button class="operator substract" value="-">
                     -
                 </button>
-                <button class="number">
+                <button class="number" value="1">
                     1
                 </button>
-                <button class="number">
+                <button class="number" value="2">
                     2
                 </button>
-                <button class="number">
+                <button class="number" value="3">
                     3
                 </button>
-                <button class="operator add">
+                <button class="operator add" value="+">
                     +
                 </button>
-                <button class="number">
+                <button class="number" value="0">
                     0
                 </button>
-                <button class="number">
+                <button class="number" value=".">
                     .
                 </button>
-                <button class="equals">
+                <button class="equals" >
                     =
                 </button>
             </div>        
@@ -91,7 +87,7 @@
         </p>
         <a href="https://github.com/thsurgeonofdeath" target="_blank">
           <i class="fab fa-github"></i
-        ></a>
+        ></a> 
       </footer>
 	
   </body>
