@@ -7,7 +7,10 @@ body{
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #EBDEF0 , #AF7AC5   );
+    background: linear-gradient(to right, aquamarine , #148F77    );
+    /* background-image: url('https://cdn.wallpapersafari.com/40/35/3eiELO.jpg');
+    background-repeat: none;
+    background-size: auto; */
     /* footer support */
     margin-bottom: 100px;
 }
