@@ -1,5 +1,5 @@
 # Calculator
-on screen calculator using JavaScript
+on screen calculator using JavaScript, I don't know what else I can say to describe the project I mean it's a fucking calculator
 
 Check it yourself here :
 [Live Demo](https://thsurgeonofdeath.github.io/Calculator/)
@@ -7,7 +7,5 @@ Check it yourself here :
 
 
 Screenshot of the application :
-I realise the color combination looks awful, I'm just too lazy to change it now
-
-![image](https://user-images.githubusercontent.com/99540220/181773907-fb4ece17-885a-4bd0-a6dc-4ff0b2108bc6.png)
  
+![image](https://user-images.githubusercontent.com/99540220/181780073-e45bb0d8-5b35-4f0f-a6e1-70fe467b7b1e.png)
